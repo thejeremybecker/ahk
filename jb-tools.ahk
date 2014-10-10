@@ -1,5 +1,5 @@
 #^o::  ; Windows+Control+o hotkey.
-IfWinNotExist Inbox - Jeremy.Becker@us.gt.com - Outlook
+IfWinNotExist Inbox - email_address - Outlook
 	
     return  ; Outlook isn't open to the right section, so do nothing.
 WinActivate  ; Activate the window found by the above command.
